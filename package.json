@@ -1,9 +1,19 @@
 {
-  "name": "@geeksteam/prettier-config",
-  "version": "1.0.0",
+  "name": "@geekmaks/prettier-config",
+  "version": "1.0.1",
   "description": "My personal Prettier config",
   "main": "index.json",
-  "repository": "git@github.com:geeksteam/prettier-config.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/geeksteam/prettier-config.git"
+  },
   "author": "Max Kalashnikov <max@geeks.team>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geeksteam/prettier-config/issues"
+  },
+  "homepage": "https://github.com/geeksteam/prettier-config#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
